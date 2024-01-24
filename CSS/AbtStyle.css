@@ -1,0 +1,54 @@
+body {
+}
+.abtbox {
+    position:absolute;
+    width:800px;
+    height:500px;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+     padding:80px 40px;
+    box-sizing:border-box;
+    background:rgb(219, 241, 241);
+
+}
+ul {
+  list-style-type: none;
+  margin:50px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #8EC837;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  
+}
+
+
+#copyright{padding:5px 0 5px; border-top:1px solid; bottom:auto; }
+
+.footercolor {
+background-color:black;
+
+}
+.wrapper{display:block; position:relative; width:100%; margin:0; text-align:left; word-wrap:break-word;}
+.hoc{display:block; margin:0 auto;}
+
+.row5, .row5 a{color:#A8A8A8;}
+/* Copyright */
+#copyright{border-color:#474747;}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #8EC837;
+}
